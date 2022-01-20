@@ -1,5 +1,5 @@
 # QLC+ dark theme
-Simple dark theme for QLC+
+## Simple dark theme for QLC+
 
 Forked form [EmerickH/qlcplus-dark-theme](https://github.com/EmerickH/qlcplus-dark-theme)  
 Modified by [Xilef12000](https://github.com/Xilef12000)  
