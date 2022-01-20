@@ -1,74 +1,75 @@
 /* QLC+ Black theme by Emerick Herve */
+/* Modified my Xilef12000 */
 
 /* ##### Main window ##### */
 QMainWindow, QDialog
 { 
- background-color: #404B57; 
- color: #E6E6E6; 
+ background-color: #2A2A2E; 
+ color: #CDCDD4; 
 }
 
 QRadioButton
 {
-  color: #E6E6E6;
+  color: #CDCDD4;
 }
 
 /* ##### Tree (Fixtures) ##### */
 QTreeWidget, QTreeView 
 { 
- background-color: #3A444F; 
- alternate-background-color: #404B57; 
- color: #E6E6E6; 
-  font-size: 20px;
+ background-color: #2A2A2E; 
+ alternate-background-color: #2A2A2E; 
+ color: #CDCDD4; 
+  font-size: 16px;
 }
 
 /* ##### Text (Fixture/In-Out details) ##### */
 QTextBrowser 
 { 
- background-color: #3A444F; 
- color: #E6E6E6; 
+ background-color: #2A2A2E; 
+ color: #CDCDD4; 
 }
 
 /* ##### Editable Fields ##### */
 QComboBox
 {
- background-color: #5F6F78;
- color: #e6e6e6;
+ background-color: #2A2A2E;
+ color: #CDCDD4;
 }
 
 QLineEdit
 {
- background-color: #5F6F78;
- color: #e6e6e6;
+ background-color: #2A2A2E;
+ color: #CDCDD4;
 }
 
 EFXEditor QWidget:editable 
 {
-  background-color: #5F6F78;
-  color: #e6e6e6;
+  background-color: #2A2A2E;
+  color: #CDCDD4;
 }
 
 /* ##### Universe list ##### */
 QListWidget
 { 
-    background-color: #3A444F; 
-    color: #E6E6E6; 
+    background-color: #2A2A2E; 
+    color: #CDCDD4; 
 }
 
 /* ##### Splitter ##### */
 QSplitter::handle {
-    background-color: #6f7c8b;
+    background-color: #2A2A2E;
     border: 0px;
 }
 
 QSplitter::handle:hover {
-    background-color: #787876;
+    background-color: #2A2A2E;
     border: 0px;
 }
 
 
 /* ##### Toolbars, ... ##### */
 QToolBar {
-    background: #404B57;
+    background: #2A2A2E;
     color: white;
 }
 
@@ -90,25 +91,25 @@ QTabWidget::tab-bar {
 }
 
 QTabBar::tab {
-    background: #404B57;
+    background: #2A2A2E;
     border: 0px;
     padding: 5px;
     color: #FFFFFF;
 }
 
 QTabBar::tab:selected, QTabBar::tab:hover {
-    background: #55616f;
+    background: #38383D;
 }
 
 QHeaderView::section {
-    background: #55616f;
+    background: #2A2A2E;
     color: white;
     border: 0px;
     padding: 3px;
 }
 
 QGroupBox, QCheckBox {
-    color: #E6E6E6; 
+    color: #CDCDD4; 
 }
 
 
@@ -116,20 +117,20 @@ QGroupBox, QCheckBox {
 
 QScrollBar:vertical, QScrollBar:horizontal {
 
-  border: 1px solid #13161a;
-  background-color: #252b33;
+  border: 1px solid #38383D;
+  background-color: #2A2A2E;
   width: 17px;
   margin: 21px 0 21px 0;
 }
 
 QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-  background-color: #5f6d80;
+  background-color: #2A2A2E;
   min-height: 25px;
 }
 
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
-    border: 1px solid #13161a;
-    background-color: #3A444F;
+    border: 1px solid #38383D;
+    background-color: #2A2A2E;
     height: 20px;
 }
 
@@ -145,7 +146,7 @@ QScrollBar::sub-line:vertical, QScrollBar::sub-line:horizontal {
 
 
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
-    background: #949fac;
+    background: #2A2A2E;
 }
 
 /*QScrollBar::up-arrow:vertical
@@ -172,24 +173,24 @@ FixtureConsole QToolButton, ConsoleChannel QToolButton{
 }
 
 QComboBox {
-  background: #778390;
+  background: #2A2A2E;
   border: none;
-  selection-background-color: #778390;
+  selection-background-color: #38383D;
   selection-color: #FFFFFF;
   color: #FFFFFF;
 }
 
 QComboBox QAbstractItemView {
-  background: #778390;
+  background: #2A2A2E;
   color: #FFFFFF;
   border: none;
   selection-color: #FFFFFF;
-  selection-background-color: #314b67;
+  selection-background-color: #38383D;
 }
 
 QComboBox:on {
-  selection-background-color: #314b67;
-  background: #536272;
+  selection-background-color: #38383D;
+  background: #2A2A2E;
 }
 
 /* ##### GrandMaster ##### */
