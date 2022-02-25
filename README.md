@@ -3,6 +3,9 @@
 
 Forked form [EmerickH/qlcplus-dark-theme](https://github.com/EmerickH/qlcplus-dark-theme)  
 Modified by [Xilef12000](https://github.com/Xilef12000)  
+
+See https://www.instructables.com/QLC-Dark-Theme/ for more info.  
+
 Copy **qlcplusStyle.qss** to:
 
 - Windows  **C:\Users\YOURUSERNAME\QLC+\qlcplusStyle.qss**
