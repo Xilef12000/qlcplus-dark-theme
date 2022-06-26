@@ -9,6 +9,7 @@ See https://www.xilef12000.com/post/qlcplus-dark-theme_10a2/ for more info.
 
 Copy **qlcplusStyle.qss** to:
 
+- Linux **$HOME/.qlcplus**
 - Windows  **C:\Users\YOURUSERNAME\QLC+\qlcplusStyle.qss**
 - MacOS **~/Library/Application Support/QLC+/qlcplusStyle.qss**
 
